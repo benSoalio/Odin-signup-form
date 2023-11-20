@@ -55,3 +55,26 @@ body {
   width: 100%;
   font-family: "Kdam Thmor";
 }
+
+
+.main {
+  display: grid;
+  
+}
+.info {
+   display: grid;
+  align-items: center;
+  background-color: rgb(216, 216, 216);
+  padding: 0 2rem;
+}
+.info p{
+  font-size: 1.3rem;
+  font-weight: 700;
+ 
+  margin-top: 3rem;
+  
+}
+.section {
+  /* margin: 1rem; */
+  
+}

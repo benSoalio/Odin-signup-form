@@ -4,7 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Sign Up</title>
   </head>
-  <body></body>
+  <body>
+    <div class="sidebar">
+      <img class="bg-img" src="" alt="" />
+      <div class="logo">
+        <img src="images/odin-logo.png" alt="" class="logo-img" />
+        <p class="logo-name">odin</p>
+      </div>
+    </div>
+    <div class="main">
+      <div class="section">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged.
+        </p>
+        <p>It is a long established fact that a reader will be distracted...</p>
+      </div>
+      <div class="section">
+        <form action="">
+          <h3>Let do it</h3>
+          <fieldset>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" />
+          </fieldset>
+          <fieldset>
+            <label for="Last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" />
+          </fieldset>
+          <fieldset>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </fieldset>
+          <fieldset>
+            <label for="phone">Phone Number</label>
+            <input type="phone" name="phone" id="phone" />
+          </fieldset>
+          <fieldset>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </fieldset>
+          <fieldset>
+            <label for="confirm_password">Confirm Password</label>
+            <input
+              type="password"
+              name="confirm_password"
+              id="confirm_password"
+            />
+          </fieldset>
+        </form>
+      </div>
+      <div class="section">
+        <button class="btn">Create an account</button>
+        <p>Already have an account? <a href="login.php">Login</a></p>
+      </div>
+    </div>
+  </body>
 </html>

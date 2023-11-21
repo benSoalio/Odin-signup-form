@@ -70,9 +70,45 @@ body {
 .info p{
   font-size: 1.3rem;
   font-weight: 700;
- 
   margin-top: 3rem;
+}
+
+.form {
+  display: grid;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: #e4e5e6 0.5rem 0.5rem 0.5rem;
+}
+
+.form h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.form form {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
   
+}
+
+fieldset {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border: none  ;
+
+}
+fieldset label {
+  grid-column: 1 / -1;
+  font-size: 1rem;
+  
+}
+
+fieldset input {
+  grid-column: 1 / 5;
+  padding-bottom: 0.2rem;
+  border: 1px solid #ebecef;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .section {
   /* margin: 1rem; */
